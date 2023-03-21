@@ -1,0 +1,167 @@
+.main {
+    padding: 2rem;
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    align-items: center;
+}
+
+.row {
+    padding: 0.5rem;
+}
+.main_center .post_header{
+    text-align: center;
+    margin-bottom: 2rem;
+
+}
+
+.main_center-content {
+    height: 90vh;
+    overflow-y: scroll;
+}
+
+.post_container {
+    padding: 1rem 1rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0.5rem;
+}   
+
+
+.left_title {
+    align-items: center;
+    padding: 1rem;
+    text-align: center;
+}
+.right_title{
+    padding: 1rem ;
+    text-align: center;
+}
+.post_title h3 {
+    align-items: center;
+    text-align: center;
+    padding: 1rem;
+}
+.post_title:hover a{
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1024px) {
+   
+
+    .main{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .main_center{
+        margin-bottom: 3rem;
+    }
+
+    .main_left-content {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin-bottom: 10rem;
+     }
+
+     .left_title {
+        margin-top: 7rem;
+     }
+
+      .main_center-content .post_container {
+        height: 120vh;
+        overflow-y: scroll;
+    }
+
+
+    .main_center .post_header {
+        margin-bottom: 1.5rem;
+        text-align: center;
+    }
+
+    .post_container {
+        padding: 1rem 1rem;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 0.5rem;
+    }   
+
+   
+
+    .main_right-content{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        overflow-y: scroll;
+        margin-bottom: 6rem;
+    }
+        
+    .main_right .right_title{
+        margin-top: 8rem;
+    }
+        
+
+
+
+
+}
+
+
+@media screen and (max-width: 800px) {
+
+
+    .main{
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 0rem .1rem;
+        margin-top: -1rem;
+    }
+    
+    .main_left-content {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: .3px;
+        margin-bottom: 10rem;
+
+    }
+
+
+    .main_center{
+        margin-bottom: 2rem;
+    }
+    .main_center-content .post_container {
+        height: 120vh;
+        overflow-y: scroll;
+    }
+   
+
+
+    .main_center .post_header {
+        margin-bottom: 1rem;
+        text-align: center;
+    }
+
+    .post_container {
+        padding: 0rem .5rem;
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 0.9rem;
+        padding-top: 16rem;
+    }   
+
+    .right_title {
+    margin-top: -6rem;
+   }
+
+    .main_right-content{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin-bottom: 5rem;
+    }
+        
+    
+}

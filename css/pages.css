@@ -1,0 +1,259 @@
+.page_container {
+    margin: 10rem 4rem;
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+}
+
+.center_title h2 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+.center_title p {
+    font-size: 1.5rem;
+}
+.detail {
+    display: flex;
+    gap: 2rem;
+}
+
+.detail .name {
+    margin: 1rem 0rem;
+}
+.center_title-socials {
+    margin: 1rem;
+}
+.page_img {
+    padding: 1rem 0rem;
+    border-top: solid 1px;
+}
+.page_img-details{
+    padding: 1rem 0rem;
+    border-bottom: 1rem;
+    border-bottom: solid 1px;
+}
+.page_body {
+    font-size: 1.5rem;
+    margin-top: 2rem;
+}
+.page_vid video {
+    width: 100%;
+    height: 100%;
+}
+.page_vid {
+    padding: 2rem 2rem;
+}
+
+.news_highlights {
+    padding: 1rem 15rem;
+    border-top: solid 1px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    border-bottom: 2rem;
+}
+.highlight_content {
+    display: flex;
+    gap: 0.8rem;
+    border: solid 1px;
+    padding: 0.5rem;
+    border-color: rgb(163, 153, 140);
+    border-radius: 8px;
+}
+.highlight_content a:hover {
+    transform: translateX(10px);
+}
+.highlight_content a {
+    color: aliceblue;
+}
+
+.highlight_content img {
+    width: 10rem;
+    height: 10ren;
+}
+
+
+
+
+
+
+@media screen and (max-width: 1024px) {
+   
+
+
+    .page_container {
+        margin: 7rem 0rem;
+        grid-template-columns: 5% 90% 5%;
+    }
+    
+    .center_title h2 {
+        font-size: 1.9rem;
+        margin-bottom: 0.7rem;
+    }
+    .center_title p {
+        font-size: 1.2rem;
+    }
+    .detail {
+        gap: 1.5rem;
+    }
+    
+  
+    .center_title-socials {
+        margin: 1rem;
+    }
+    .page_img {
+        padding: 1rem 0rem;
+        border-top: solid 1px;
+    }
+    .page_img-details{
+        padding: 0.5rem 0rem;
+        border-bottom: 1rem;
+        border-bottom: solid 1px;
+    }
+    .page_body {
+        font-size: 1.2rem;
+    }
+    .page_vid video {
+        width: 100%;
+        height: 100%;
+    }
+    .page_vid {
+        align-items: center;
+        padding: 2rem 1rem;
+    }
+    .page_vid p {
+        margin-top: 2rem;
+    }
+    
+    .news_highlights {
+        padding: 5rem 3rem;
+        grid-template-columns: 1fr;
+        gap: 0.5rem;
+        padding-bottom: 5rem;
+    }
+    .highlight_content {
+        display: flex;
+        gap: 0.3rem;
+    }
+    .highlight_content a:hover {
+        transform: translateX(10px);
+    }
+    .highlight_content a {
+        color: aliceblue;
+        font-size: .8rem;
+    }
+    
+    .highlight_content img {
+        width: 6rem;
+        height: 4rem;
+    }
+    
+    
+    
+
+
+
+}
+
+
+
+@media screen and (max-width: 800px) {
+   
+
+
+    .page_container {
+        margin: 7rem 0rem;
+        grid-template-columns: 0% 100% 0%;
+        padding: o.1rem 0.5rem;
+    }
+    
+    .center_title h2 {
+        font-size: 1rem;
+        margin-bottom: 0.7rem;
+    }
+    .center_title p {
+        font-size: .8rem;
+    }
+    .detail {
+        gap: 1rem;
+    }
+
+    .detail .name p{
+        font-size: .8rem;
+    }
+    .detail .date p{
+        font-size: .8rem;
+    }
+    
+    .center_title-socials {
+        margin: 1rem;
+    }
+    .page_img {
+        padding: 1rem 0rem;
+        border-top: solid 1px;
+    }
+    .page_img-details{
+        padding: 0.5rem 0rem;
+        border-bottom: 1rem;
+        border-bottom: solid 1px;
+    }
+
+    .page_img-details p{
+        font-size: .9rem;
+    }
+    .page_body {
+        font-size: .8rem;
+    }
+    .page_vid video {
+        width: 100%;
+        height: 100%;
+    }
+    .page_vid {
+        align-items: center;
+        padding: 2rem 1rem;
+    }
+    .page_vid p {
+        margin-top: 2rem;
+    }
+    
+    .news_highlights {
+        padding: 4rem 0.1rem;
+        grid-template-columns: 1fr;
+        gap: 0.5rem;
+        padding-bottom: 12rem;
+    }
+    .highlight_content {
+        display: flex;
+        gap: 0.3rem;
+    }
+    .highlight_content a:hover {
+        transform: translateX(10px);
+    }
+    .highlight_content a {
+        color: aliceblue;
+        font-size: .8rem;
+    }
+    
+    .highlight_content img {
+        width: 6rem;
+        height: 4rem;
+    }
+    
+    
+    
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
